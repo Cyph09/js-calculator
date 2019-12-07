@@ -1,0 +1,55 @@
+.Container {
+  background: #d6d6d6;
+  margin: 2rem auto;
+  width: 350px;
+  height: 85vh;
+  display: grid;
+  grid-template-rows: 24% 73%;
+  gap: 0.5rem;
+  font-size: 1.4rem;
+
+  #display {
+    display: grid;
+    justify-items: end;
+    width: calc(100%-0.625rem);
+    height: calc(100%-0.625rem);
+    padding: 0.625rem;
+    background: #d6d6d6;
+
+    .formula {
+      align-self: center;
+    }
+
+    .answer {
+      align-self: center;
+      font-size: 3rem;
+
+    }
+  }
+
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0.05rem;
+    justify-content: center;
+    margin: 0 0.4rem;
+
+    .btn {
+      display: flex;
+      background: #e1e1e1;
+      border-radius: 2px;
+      padding: 0.2rem 0.8rem;
+      transition: all 0.3s;
+      margin: 0.2rem;
+      justify-content: center;
+      align-items: center;
+
+
+      &:hover {
+        background: #a0a0a0;
+        border: 0.5px #929292 solid;
+      }
+    }
+  }
+}
