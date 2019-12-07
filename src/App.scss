@@ -1,5 +1,5 @@
 .Container {
-  background: #d6d6d6;
+  background: #cacaca;
   margin: 2rem auto;
   width: 350px;
   height: 85vh;
@@ -14,7 +14,7 @@
     width: calc(100%-0.625rem);
     height: calc(100%-0.625rem);
     padding: 0.625rem;
-    background: #d6d6d6;
+    background: #cacaca;
 
     .formula {
       align-self: center;
@@ -37,7 +37,7 @@
 
     .btn {
       display: flex;
-      background: #e1e1e1;
+      background: #b4b4b4;
       border-radius: 2px;
       padding: 0.2rem 0.8rem;
       transition: all 0.3s;
@@ -49,6 +49,19 @@
       &:hover {
         background: #a0a0a0;
         border: 0.5px #929292 solid;
+      }
+    }
+
+    .opsBtn {
+      background: #e0e0e0;
+    }
+
+    #equals {
+      background-color: #0084ff;
+
+      &:hover {
+        background: #3998f1;
+        border: 0.5px #0084ff solid;
       }
     }
   }

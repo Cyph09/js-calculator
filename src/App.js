@@ -9,16 +9,16 @@ function App() {
         <div className="answer">12323.3253</div>
       </div>
       <div className="buttons">
-        <div id="clear" className="btn">
+        <div id="clear" className="btn opsBtn">
           AC
         </div>
-        <div id="resert" className="btn">
+        <div id="resert" className="btn opsBtn">
           C
         </div>
-        <div id="back" className="btn">
+        <div id="back" className="btn opsBtn">
           Back
         </div>
-        <div id="divide" className="btn">
+        <div id="divide" className="btn opsBtn">
           /
         </div>
         <div id="seven" className="btn">
@@ -30,7 +30,7 @@ function App() {
         <div id="nine" className="btn">
           9
         </div>
-        <div id="multiply" className="btn">
+        <div id="multiply" className="btn opsBtn">
           x
         </div>
         <div id="four" className="btn">
@@ -42,7 +42,7 @@ function App() {
         <div id="six" className="btn">
           6
         </div>
-        <div id="subtract" className="btn">
+        <div id="subtract" className="btn opsBtn">
           -
         </div>
         <div id="one" className="btn">
@@ -54,16 +54,16 @@ function App() {
         <div id="three" className="btn">
           3
         </div>
-        <div id="add" className="btn">
+        <div id="add" className="btn opsBtn">
           +
         </div>
-        <div id="sign" className="btn">
+        <div id="sign" className="btn opsBtn">
           +/-
         </div>
         <div id="zero" className="btn">
           0
         </div>
-        <div id="decimal" className="btn">
+        <div id="decimal" className="btn opsBtn">
           .
         </div>
         <div id="equals" className="btn">
