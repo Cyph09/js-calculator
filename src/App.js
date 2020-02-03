@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.scss";
+import { FaBackspace } from "react-icons/fa";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           C
         </div>
         <div id="back" className="btn opsBtn">
-          Back
+          <FaBackspace />
         </div>
         <div id="divide" className="btn opsBtn">
           /
